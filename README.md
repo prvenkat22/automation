@@ -16,7 +16,7 @@ The directory contains a sample test framework that is based on nightwatchjs and
 - Install docker and docker-compose if it is not done
 - Execute 'docker-compose up -d' inside the 'demo' directory. Download of selenoid and the requested browsers happen and the selenoid and selenoid-ui containers are started
 - To make sure the containers are running, execute 'docker-compose ps' and you should see two containers
-- To run the sample tests, download the archive file under 'testframework' directoy and extract it
-- Once download is complete navigate to the test directoy and execute 'npm install', so that all required nom packages are downloaded
+- To run the sample tests, download the archive file under 'testframework' directory and extract it
+- Once download is complete navigate to the test directoy and execute 'npm install', so that all required npm packages are downloaded
 - Download the latest chromedriver and place it under 'lib' directory
-- Execute './node_modules/nightwatch/bin/nightwatch ./stc/test/login.js -e chrome' and your tests will start a chrome container and run the tests. You can check it by logging in to 'http://localhost:8080'
+- Execute './node_modules/nightwatch/bin/nightwatch ./src/test/login.js -e chrome' and your tests will start a chrome container and run the tests. You can check it by logging in to 'http://localhost:8080'
