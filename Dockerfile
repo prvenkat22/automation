@@ -1,4 +1,4 @@
-FROM java:8-jre
+FROM alpine:latest
 
 ## Node.js setup
 RUN curl -sL https://deb.nodesource.com/setup_8.x | bash -
