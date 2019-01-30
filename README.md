@@ -1,5 +1,5 @@
 
-This project is just to showcase the usage of containers for GUI automation. The container images and the Selenoid framework is the work of Aerokube. 
+This project showcases the usage of containers for GUI automation. The container images and the Selenoid framework is the work of Aerokube. 
 
 **Docker File**
 The docker file attached is just to showcase the installation of nightwatchjs framework and its pre-requisities.
