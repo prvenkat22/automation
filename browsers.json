@@ -27,8 +27,8 @@
                 "port": "4444",
                 "path": "/wd/hub"
             },
-            "54.0": {
-                "image": "selenoid/vnc:firefox_54.0",
+            "68.0": {
+                "image": "selenoid/vnc:firefox_68.0",
                 "port": "4444",
                 "path": "/wd/hub"
             }
